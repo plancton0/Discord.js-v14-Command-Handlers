@@ -1,10 +1,10 @@
 # Discord.js-v14-Command-Handlers
 Command, event, permission and cooldown handlers for the Discord.js v14 bot ~ Created by Speed!
 
-### __EEEEEE__
-Discord.JS V14 Template
-This template is using SQLite (with TypeOrm) as database for the bot settings.
-
+### __Configuration File__
+fill the config.js with your info
+  BOT_OWNER_IDS=123456,654321
+  BOT_TOKEN=botToken
 Used Packages And Environment
 DiscordJs >=v14
 NodeJs >=16
