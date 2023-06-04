@@ -1,6 +1,6 @@
 # Discord.JS V14 HANDLER COMMAND
 
-Un gestionnaire de commandes Slash et Préfix simple et convivial pour Discord.js V14.
+Un gestionnaire de commandes Slash et Préfix simple et convivial pour Discord.js V14 par [Speed](https://github.com/plancton0).
 
 ## Conditions préalables
 
@@ -28,7 +28,7 @@ Installer les dépendances. (terminal)
 Lancer le bot. (terminal)
 
 ```bash
-  node .
+  node . ou node main.js
 ```
 ## Plus
 
