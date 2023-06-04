@@ -8,14 +8,14 @@ Un gestionnaire de commandes Slash et Préfix simple et convivial pour Discord.j
 
 ## Installation
 
-Le fichier de configuration nommé config.json doit contenir le jeton et le préfixe de votre bot, ainsi que les identifiants de tous les autres propriétaires (ou uniquement les vôtres).
+Le fichier de configuration nommé config.json doit contenir le jeton, le préfix et la couleur de votre bot, ainsi que les identifiants de tous les autres propriétaires (ou uniquement les vôtres) et celui du bot.
 ```
 {
 	"owners": ["ID DEV", "ID DEV"],
-	"token": "",
-	"color": "",
-	"prefix": "",
-	"clientId": ""
+	"token": "bot-token",
+	"color": "bot-color",
+	"prefix": "bot-prefix",
+	"clientId": "bot-id"
 }
 ```
 
@@ -28,7 +28,7 @@ Installer les dépendances. (terminal)
 Lancer le bot. (terminal)
 
 ```bash
-  node . ou node main.js
+  node .
 ```
 ## Plus
 
