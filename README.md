@@ -1,14 +1,14 @@
 # Discord.JS V14 HANDLER COMMAND
 
-Created by Speed!
-## Used Packages And Environment
+Créé par Speed!
+## Packages utilisés
 
 -   [DiscordJs >=v14](https://discord.js.org/#/)
 -   [NodeJs >=20](https://nodejs.org/en/)
 
-## Configuration File
+## Fichier de configuration
 
-Fill in the config.js
+Remplissez le config.js
 
 ```
 	token: "",
@@ -19,14 +19,14 @@ Fill in the config.js
 
 ## Usage
 
-To install dependencies
+Pour installer des dépendances
 
 ```bash
   npm i 
   npm install discord.js
 ```
 
-Launch the bot
+Lancer le bot
 
 ```bash
   node .
