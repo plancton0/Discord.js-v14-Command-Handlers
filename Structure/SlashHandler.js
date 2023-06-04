@@ -6,7 +6,7 @@ const config = require('../config');
 module.exports = async (client) => {
   const commands = [];
 
-  client.commands.forEach((command) => {
+  client.slashCommands.forEach((command) => {
     const slashCommand = new Discord.SlashCommandBuilder()
       .setName(command.name)
       .setDescription(command.description)
@@ -72,7 +72,7 @@ module.exports = async (client) => {
 
     commands.push(slashCommand.toJSON());
   });
-
+  
   const rest = new REST({ version: '10' }).setToken(config.token);
 
   await rest.put(Routes.applicationCommands(config.clientId), {
