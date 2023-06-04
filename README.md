@@ -4,7 +4,7 @@ Created by Speed!
 ## Used Packages And Environment
 
 -   [DiscordJs >=v14](https://discord.js.org/#/)
--   [NodeJs >=16](https://nodejs.org/en/)
+-   [NodeJs >=20](https://nodejs.org/en/)
 
 ## Configuration File
 
