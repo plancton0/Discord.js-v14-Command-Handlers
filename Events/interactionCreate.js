@@ -7,7 +7,7 @@ const cooldowns = new Map();
 module.exports = async (client, interaction) => {
   if (!interaction.isCommand()) return;
 
-  const command = client.commands.get(interaction.commandName);
+  const command = client.slashCommands.get(interaction.commandName);
   if (!command) return;
 
   if (!cooldowns.has(command.name)) {
@@ -34,12 +34,14 @@ module.exports = async (client, interaction) => {
   setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
 
   try {
-    if (command.owners && !owners.includes(interaction.user.id)) return interaction.reply({ ephemeral: true, content: `Seul le développeur bot est en mesure d\'utiliser cette commande.` });
+    if (command.owners && !owners.includes(interaction.user.id)) {
+      return interaction.reply({ ephemeral: true, content: "Seul le développeur du bot est autorisé à utiliser cette commande." });
+    }
     command.execute(client, interaction);
   } catch (error) {
     console.error(error);
     await interaction.reply({
-      content: `Une erreur est survenue lors de l\'exécution de la commande.`,
+      content: "Une erreur est survenue lors de l'exécution de la commande.",
       ephemeral: true,
     });
   }
