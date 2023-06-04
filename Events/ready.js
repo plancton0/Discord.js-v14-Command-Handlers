@@ -13,7 +13,7 @@ module.exports = (client) => {
 	const status = [
 		'online',
 		'dnd',
-		'idle'
+		'idle',
 	];
   
 	let i = 0;
@@ -28,11 +28,11 @@ module.exports = (client) => {
 		if(s >= activities.length) s = 0;
 		client.user.setStatus(status[s]);
 		s++;
-	}, 30000);
+	}, 2500);
 
   slashHandler(client)
   console.log(`----------------------------------------------------`);
   console.log('\x1b[37m<\x1b[0m\x1b[32mSystem\x1b[0m\x1b[37m>\x1b[0m Connexion réussie avec \x1b[37m%s\x1b[0m', '@' + client.user.tag.replace(/\s/g, '') + '.');
   console.log(`----------------------------------------------------`);
-  console.log(`\x1b[37m<\x1b[0m\x1b[31mSupport\x1b[0m\x1b[37m>\x1b[0m Pour obtenir de l'aide, veuillez rejoindre notre support sur discord.gg/DFmwDxNo.`);
+  console.log(`\x1b[37m<\x1b[0m\x1b[31mSupport\x1b[0m\x1b[37m>\x1b[0m discord.gg/DFmwDxNo.`);
 };
