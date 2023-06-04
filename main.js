@@ -29,16 +29,19 @@ const intents = [
     Discord.GatewayIntentBits.DirectMessageTyping,
     Discord.GatewayIntentBits.MessageContent,
     Discord.GatewayIntentBits.GuildScheduledEvents
+    
 ];
 
+
 const client = new Discord.Client({
-    partials: partials,
-    intents: intents
+  partials: partials,
+  intents: intents,
 });
 
 client.commands = new Discord.Collection();
 client.color = config.color;
-
+client.slashCommands = new Discord.Collection();
+client.prefixCommands = new Discord.Collection();
 
 const eventHandler = require('./Structure/EventHandler');
 const commandHandler = require('./Structure/CommandHandler');
