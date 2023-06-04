@@ -1,4 +1,4 @@
-# Discord.JS V14 HANDLER COMMAND
+# Discord.JS V14 HANDLER COMMAND - EVENTS
 
 Un gestionnaire de commandes Slash et Préfix simple et convivial pour Discord.js V14 par [Speed](https://github.com/plancton0).
 
