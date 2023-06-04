@@ -1,6 +1,5 @@
 # Discord.JS V14 HANDLER COMMAND
 
-Créé par Spεεd#5476, si besoin d'aide me mp !
 Gestionnaire de Commandes Slash simple et facile à utiliser pour Discord.js V14.
 
 ## Conditions préalables
