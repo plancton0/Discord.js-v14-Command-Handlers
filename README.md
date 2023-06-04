@@ -10,7 +10,7 @@ Gestionnaire de Commandes Slash simple et facile à utiliser pour Discord.js V14
 
 ## Installation
 
-Remplissez le config.js
+Remplir le config avec les informations de votre bot.
 
 ```
 	token: "",
@@ -19,14 +19,13 @@ Remplissez le config.js
 	clientId: ""
 ```
 
-Pour installer des dépendances
+Installer les dépendances.
 
 ```bash
   npm i 
-  npm install discord.js
 ```
 
-Lancer le bot
+Lancer le bot.
 
 ```bash
   node .
