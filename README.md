@@ -38,4 +38,4 @@ Pour toute erreur trouvée, merci de me contacter ici par exemple ou de me dm di
 
 [MIT](https://github.com/driwand/discord.js-v13-template/blob/main/LICENCE)
 
-###### Réalisé avec ❤️ par [Speed](https://github.com/plancton0) en JavaScript.
+###### Réalisé par [Speed](https://github.com/plancton0) en JavaScript.
