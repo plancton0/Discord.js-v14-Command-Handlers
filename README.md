@@ -1,6 +1,7 @@
 # Discord.JS V14 HANDLER COMMAND
 
-Créé par Speed!
+Créé par Spεεd#5476, si besoin d'aide me mp !
+
 ## Packages utilisés
 
 -   [DiscordJs >=v14](https://discord.js.org/#/)
