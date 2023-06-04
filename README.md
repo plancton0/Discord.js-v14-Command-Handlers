@@ -5,7 +5,7 @@ Gestionnaire de Commandes Slash simple et facile à utiliser pour Discord.js V14
 
 ## Conditions préalables
 
-- Node.js v18.16.0 ou plus récent est recommandé. Les anciennes versions pourraient fonctionner. Vous pouvez le télécharger ici .
+- Node.js v18.16.0 ou plus récent est recommandé. Les anciennes versions pourraient fonctionner. Vous pouvez le télécharger [ici](https://nodejs.org/en/download/).
 
 ## Installation
 
