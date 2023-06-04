@@ -17,7 +17,7 @@ Remplissez le config.js
 	clientId: ""
 ```
 
-## Usage
+## Utilisation
 
 Pour installer des dépendances
 
