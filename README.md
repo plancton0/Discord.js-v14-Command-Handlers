@@ -1,13 +1,14 @@
 # Discord.JS V14 HANDLER COMMAND
 
 Créé par Spεεd#5476, si besoin d'aide me mp !
+Gestionnaire de Commandes Slash simple et facile à utiliser pour Discord.js V14.
 
-## Packages utilisés
+## Conditions préalables
 
 -   [DiscordJs >=v14](https://discord.js.org/#/)
 -   [NodeJs >=20](https://nodejs.org/en/)
 
-## Fichier de configuration
+## Installation
 
 Remplissez le config.js
 
@@ -17,8 +18,6 @@ Remplissez le config.js
 	color: "",
 	clientId: ""
 ```
-
-## Utilisation
 
 Pour installer des dépendances
 
