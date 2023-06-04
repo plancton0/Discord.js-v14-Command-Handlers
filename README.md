@@ -19,13 +19,13 @@ Un gestionnaire de commandes Slash et Préfix simple et convivial pour Discord.j
 }
 ```
 
-Installer les dépendances. (terminal)
+- Installer les dépendances. (terminal)
 
 ```bash
   npm i 
 ```
 
-Lancer le bot. (terminal)
+- Lancer le bot. (terminal)
 
 ```bash
   node .
