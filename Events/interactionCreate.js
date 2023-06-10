@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const config = require("../config")
-const owners = config.owners;
+require('dotenv').config();
+const owners = process.env.owners
 
 const cooldowns = new Map();
 
