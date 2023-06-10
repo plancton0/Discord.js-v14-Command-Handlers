@@ -1,11 +1,12 @@
 const Discord = require("discord.js");
 const cooldowns = new Map();
-const config = require("../config");
+require('dotenv').config();
+const prefix = process.env.prefix;
 
 module.exports = async (client, message) => {
-  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-  const args = message.content.slice(config.prefix.length).trim().split(/ +/);
+  const args = message.content.slice(prefix.length).trim().split(/ +/);
   const commandName = args.shift().toLowerCase();
 
   const command = client.prefixCommands.get(commandName);
