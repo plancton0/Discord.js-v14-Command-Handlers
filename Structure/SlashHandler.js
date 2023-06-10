@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord.js');
-const config = require('../config');
+require('dotenv').config();
 
 module.exports = async (client) => {
   const commands = [];
@@ -73,9 +73,9 @@ module.exports = async (client) => {
     commands.push(slashCommand.toJSON());
   });
   
-  const rest = new REST({ version: '10' }).setToken(config.token);
+  const rest = new REST({ version: '10' }).setToken(process.env.token);
 
-  await rest.put(Routes.applicationCommands(config.clientId), {
+  await rest.put(Routes.applicationCommands(process.env.clientId), {
     body: commands,
   });
 };
