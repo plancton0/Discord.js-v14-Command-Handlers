@@ -34,6 +34,6 @@ Pour toute erreur trouvée ou conseil, merci de me contacter ici par exemple ou 
 
 ## License
 
-[ISC](https://github.com/driwand/discord.js-v13-template/blob/main/LICENCE](https://github.com/plancton0/Discord.js-v14-Command-Handlers/LICENSE)
+[ISC]([https://github.com/driwand/discord.js-v13-template/blob/main/LICENCE](https://github.com/plancton0/Discord.js-v14-Command-Handlers/LICENSE))
 
 ###### Réalisé par [Speed](https://github.com/plancton0) en JavaScript.
