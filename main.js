@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const config = require("./config")
+require('dotenv').config();
 
 const partials = [
     Discord.Partials.Message,
@@ -32,14 +32,13 @@ const intents = [
     
 ];
 
-
 const client = new Discord.Client({
   partials: partials,
   intents: intents,
 });
 
 client.commands = new Discord.Collection();
-client.color = config.color;
+client.color = process.env.color;
 client.slashCommands = new Discord.Collection();
 client.prefixCommands = new Discord.Collection();
 
@@ -51,7 +50,7 @@ eventHandler(client);
 commandHandler(client);
 slashHandler(client);
 
-client.login(config.token);
+client.login(process.env.token);
 
 process.on("unhandledRejection", err => {
   if (err.message) return;
